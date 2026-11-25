@@ -1,0 +1,16 @@
+{
+  "name": "@showcase/webgl-shader-cache",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "description": "Independent educational sample: keep shader programs alive across material switches in three.js.",
+  "scripts": {
+    "test": "node --test",
+    "bench": "node bench/run.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.48.0",
+    "three": "^0.170.0"
+  }
+}

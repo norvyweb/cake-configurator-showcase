@@ -1,0 +1,12 @@
+{
+  "name": "@showcase/device-quality-tiers",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "description": "Independent educational sample: choose and adapt WebGL rendering quality per device.",
+  "scripts": {
+    "test": "node --test",
+    "measure": "node measure/fixtures.mjs"
+  }
+}

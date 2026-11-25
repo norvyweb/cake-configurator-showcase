@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Shader cache benchmark</title>
+  <style>
+    body { margin: 0; font: 14px/1.4 system-ui, sans-serif; }
+    canvas { display: block; }
+    #out { position: fixed; top: 8px; left: 8px; background: #fff; padding: 6px 10px; }
+  </style>
+  <script type="importmap">
+    { "imports": { "three": "/node_modules/three/build/three.module.js" } }
+  </script>
+</head>
+<body>
+  <pre id="out">running…</pre>
+  <script type="module" src="./bench.js"></script>
+</body>
+</html>

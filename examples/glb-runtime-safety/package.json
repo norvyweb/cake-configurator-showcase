@@ -1,0 +1,15 @@
+{
+  "name": "@showcase/glb-runtime-safety",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "description": "Independent educational sample: make loaded glTF models safe to show and recolour on mobile WebGL.",
+  "scripts": {
+    "test": "node --test",
+    "measure": "node measure/budget.mjs"
+  },
+  "devDependencies": {
+    "three": "^0.170.0"
+  }
+}

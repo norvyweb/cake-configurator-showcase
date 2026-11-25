@@ -1,0 +1,11 @@
+{
+  "name": "@showcase/rtl-kiosk-kit",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "description": "Independent educational sample: building blocks for an Arabic-first touch kiosk (idle reset, keyboard, money, bidi).",
+  "scripts": {
+    "test": "node --test"
+  }
+}

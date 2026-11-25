@@ -1,0 +1,11 @@
+{
+  "name": "@showcase/undo-redo-store",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "description": "Independent educational sample: undo/redo for an immutable editor document, with coalescing and transactions.",
+  "scripts": {
+    "test": "node --test"
+  }
+}
